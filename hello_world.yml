@@ -10,4 +10,7 @@
         name: tree
         state: present 
       become: yes
+      become_user: root
+      become_method: su
+      become_ask_pass: true
       
