@@ -1,3 +1,4 @@
+---
 - name: Playin with ansible on openshift
   hosts: all
   tasks:
