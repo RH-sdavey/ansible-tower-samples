@@ -5,8 +5,8 @@
       debug:
         msg: "Hello World!"
         
-    - name: install some packages for fun
-      yum:
+    - name: play with user
+      user:
         name: tree
-        state: latest
+        state: present
 
