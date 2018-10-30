@@ -1,7 +1,12 @@
-- name: Hello World Sample
+- name: Playin with ansible on openshift
   hosts: all
   tasks:
     - name: Hello Message
       debug:
         msg: "Hello World!"
+        
+    - name: install some packages for fun
+      yum:
+        name: tree
+        state: latest
 
