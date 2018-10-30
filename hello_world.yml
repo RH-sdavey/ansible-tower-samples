@@ -8,5 +8,6 @@
     - name: play with user
       user:
         name: tree
-        state: present
-
+        state: present 
+      become: yes
+      
